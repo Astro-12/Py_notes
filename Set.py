@@ -24,3 +24,33 @@ discard(x)	        Removes x from the set (does not raise an error if not found)
 pop()	              Removes and returns a random element.                            	my_set.pop()
 clear()	            Removes all elements from the set.	                              my_set.clear()
 copy()	            Returns a shallow copy of the set.	                        new_set = my_set.copy()
+'''
+'''
+In Python, sets support intuitive operators for common operations like 
+union (|), intersection (&), difference (-), and symmetric difference (^). These have equivalent method forms too, like .union(), .intersection(), etc. Here's a quick example:
+'''
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+ 
+# Union – combines all unique elements
+print(set1 | set2)            # {1, 2, 3, 4, 5, 6}
+print(set1.union(set2))       # same result
+ 
+# Intersection – common elements
+print(set1 & set2)            # {3, 4}
+print(set1.intersection(set2))# same result
+ 
+# Difference – in set1 but not in set2
+print(set1 - set2)            # {1, 2}
+print(set1.difference(set2))  # same result
+ 
+# Symmetric Difference – in either set, but not both
+print(set1 ^ set2)                     # {1, 2, 5, 6}
+print(set1.symmetric_difference(set2))# same result
+
+'''
+Key Properties of Sets:
+  -Unordered: No indexing or slicing.
+  -Unique Elements: Duplicates are automatically removed.
+  -Mutable: You can add or remove elements.
+'''
