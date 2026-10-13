@@ -40,3 +40,10 @@ This is common in problems in which the size of the problem is repeatedly reduce
 '''
 -O(n²) is known as "Quadratic Time Complexity". The running time of these algorithms increases quadratically relative to the input size, which is generally not efficient for real-world problems.
 '''
+'''
+Space Complexity:
+-It describes how the memory space required by the algorithm grows as the input size grows.
+
+-Algorithms with "Constant Space Complexity" O(1) always require a constant amount of memory space, even as the input gets larger.
+-
+'''
