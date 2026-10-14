@@ -45,5 +45,6 @@ Space Complexity:
 -It describes how the memory space required by the algorithm grows as the input size grows.
 
 -Algorithms with "Constant Space Complexity" O(1) always require a constant amount of memory space, even as the input gets larger.
--
+-The space required by algorithms with "Linear Space Complexity" O(n) increases proportionally as the input size grows.
+-The space requirements of an algorithm with "Quadratic Space Complexity" O(n²) increase quadratically as the input size grows.
 '''
