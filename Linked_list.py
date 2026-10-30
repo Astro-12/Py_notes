@@ -18,3 +18,4 @@ Doubly Linked Lists:
   -In a doubly linked list, each node stores two references: a reference to the next node and a reference to the previous node in the sequence.
   -The insertion and deletion operations work exactly the same. The only difference is that now you will need to update two references per node and keep track of the 
     reference to the tail node to insert elements at the end of the doubly linked list very efficiently and start the traversal process from the back, if necessary.
+'''
